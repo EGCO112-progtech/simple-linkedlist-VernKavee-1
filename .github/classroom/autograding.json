@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test student",
+      "setup": "make",
+      "run": "./ming 6613266 Gatuex 6613269 Ozone",
+      "input": "",
+      "output": "6613266 Gatuex \r\n6613269 Ozone",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
