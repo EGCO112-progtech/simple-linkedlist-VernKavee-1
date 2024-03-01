@@ -1,14 +1,14 @@
 {
   "tests": [
     {
-      "name": "test student",
-      "setup": "make",
-      "run": "./ming 6613266 Gatuex 6613269 Ozone",
+      "name": "run",
+      "setup": "gcc main.c",
+      "run": "./a.out",
       "input": "",
-      "output": "6613266 Gatuex \r\n6613269 Ozone",
-      "comparison": "included",
+      "output": "",
+      "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 5
     }
   ]
 }
