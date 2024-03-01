@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "run",
+      "setup": "gcc main.c",
+      "run": "./a.out",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
